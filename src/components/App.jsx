@@ -19,7 +19,7 @@ export const App = () => {
 
   /*  ======== PERCENT FEEDBACK ========*/
 
-  const positivePercentage = total ? Math.round((good / total) * 100) : 0;
+  const positivePercentage = total ? Math.round((good / total) * 100) : '%';
 
   /*  ======== +1 FEEDBACK  ========*/
 
