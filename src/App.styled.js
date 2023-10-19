@@ -14,7 +14,7 @@ export const Container = styled.div`
 
   svg {
     position: absolute;
-    top: 240px;
-    left: 620px;
+    top: 307px;
+    left: 702px;
   }
 `;

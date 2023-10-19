@@ -6,6 +6,8 @@ import { Notification } from './Notification/notification';
 import { Statistics } from './Statistics/statistics';
 import { Section } from './Section/section';
 
+import { BiCoffee } from 'react-icons/bi';
+
 /*  ======== HOOKS ========*/
 
 export const App = () => {
@@ -51,6 +53,8 @@ export const App = () => {
           options={['good', 'neutral', 'bad']}
           onLeaveFeedback={updateFeedback}
         />
+
+        <BiCoffee size={150} />
       </Section>
 
       <Section title="Statistics:">
